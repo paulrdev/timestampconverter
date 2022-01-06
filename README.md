@@ -5,8 +5,6 @@
   <p align="center">
     Converts timestamps from unix systems to human readable dates and times
     <br />
-    <a href="https://github.com/paulrdev/timestampconverter"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://paulrdev.github.io/timestampconverter/">View Demo</a>
     ·
@@ -28,7 +26,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -61,14 +58,5 @@ Built with vanilla JavaScript, CSS and HTML.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/paulrdev/timestampconverter](https://github.com/paulrdev/timestampconverter)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
