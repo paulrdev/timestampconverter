@@ -1,0 +1,258 @@
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+button,
+hr,
+input {
+  overflow: visible;
+}
+progress,
+sub,
+sup {
+  vertical-align: baseline;
+}
+[type="checkbox"],
+[type="radio"],
+legend {
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+details,
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: ButtonText dotted 1px;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+}
+textarea {
+  overflow: auto;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+[hidden],
+template {
+  display: none;
+}
+
+html,
+body {
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+html {
+  --grey: #e7e7e7;
+  --gray: var(--grey);
+  --text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.4);
+  color: white;
+  margin-top: 0;
+  line-height: 1;
+  text-shadow: var(--text-shadow);
+}
+
+.app {
+  max-width: 800px;
+  display: table;
+  margin: 0 auto;
+}
+
+.app form {
+  background: rgb(0, 90, 143);
+  border: 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: 1fr;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  grid-gap: 2rem;
+  align-items: stretch;
+}
+
+.app :is(input, .to_date) {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  border: 0;
+  background-color: white;
+  color: #000;
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--grey);
+}
+
+.app :is(input):focus {
+  outline-color: #009bf5;
+}
+
+.app form > * {
+  margin: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  display: grid;
+  align-content: center;
+}
+
+.app form p {
+  color: whitesmoke;
+}
+
+/* hides spinners and arrows on input field*/
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.alert {
+  margin-top: 1em;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+header {
+  background: rgb(0, 114, 181);
+  padding: 1rem;
+}
+
+main {
+  background-color: whitesmoke;
+  color: #444;
+  padding: 1rem;
+  justify-content: center;
+}
+
+footer {
+  background-color: #003959;
+  padding: 1rem;
+  color: whitesmoke;
+}
