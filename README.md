@@ -51,12 +51,3 @@ The day, month, year, hours, minutes and seconds are then extracted to form a fo
 Built with vanilla JavaScript, CSS and HTML.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
