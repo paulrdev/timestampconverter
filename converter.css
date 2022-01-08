@@ -147,6 +147,14 @@ body {
   text-align: center;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Custom styles for converter app */
+
 html {
   --grey: #e7e7e7;
   --gray: var(--grey);
@@ -195,12 +203,15 @@ h1 {
 }
 
 .app :is(input, .to_date) {
+  background-color: white;
+  color: #000;
+}
+
+.app :is(input) {
   margin: 0;
   text-align: center;
   font-weight: 600;
   border: 0;
-  background-color: white;
-  color: #000;
   display: block;
   padding: 1rem;
   border: 1px solid var(--grey);
